@@ -1,0 +1,1 @@
+Copy-Item -Path "..\build\extern\SDL\Debug\*" -Destination "..\build\Debug" -Recurse -Force
