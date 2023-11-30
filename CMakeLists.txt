@@ -14,3 +14,7 @@ IF (WIN32)
         COMMAND powershell.exe ../scripts/Copy.ps1
     )
 ENDIF()
+
+add_custom_command(TARGET HoloEmu POST_BUILD
+	COMMAND powershell.exe ../scripts/Copy.ps1
+)
